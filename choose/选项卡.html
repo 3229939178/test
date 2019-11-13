@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xuanxiangka</title>
+	<style>
+		ul {
+			list-style: none;
+			margin:0;
+			padding:0;
+		}
+		#tabs {
+			width: 1200px;
+			border:1px solid;
+			display: flex;
+			justify-content: space-between;
+		}
+		.tabs_box {
+			width:500px;
+		}
+		.tabs {
+			display:flex;
+		}
+		.tabs li {
+			padding:10px;
+			padding-left:28px;/* 10+14+4 10是上边设计的，14图片的宽度，4图片和字的距离 */
+			font-size:18px;
+			background:url('images/icon1.png') no-repeat 10px;
+		}
+		.tabs .cur {
+			color:#046fbb;
+		}
+		.contents div {
+			height: 200px;
+			display:none;
+			line-height: 1.5;
+			font-size:14px;
+		}
+		.contents .show {
+			display:block;
+		}
+		.contents .date{
+			position: relative;
+			left:0;top:0;
+		}
+	</style>
+</head>
+<body>
+	<div id="tabs" >
+	<div id="tabs1" class="tabs_box">
+		<ul class="tabs"><!-- act:active cur:current -->
+			<li class="cur">学院新闻</li>
+			<li>通知公告</li>
+			<li>学术动态</li>
+		</ul>
+		<div class="contents">
+			<div class="show">学院新闻的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div>通知公告的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div>通知公告的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div>学术动态的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+	</div>
+		<div id="tabs2" class="tabs_box">
+		<ul class="tabs"><!-- act:active cur:current -->
+			<li class="cur">学院新闻</li>
+			<li>通知公告</li>
+			<li>学术动态</li>
+		</ul>
+		<div class="contents">
+			<div class="show">学院新闻的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div>通知公告的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div>学术动态的内容：Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+	</div>
+	<div id="tabs3" class="tabs_box">
+		<ul class="tabs"><!-- act:active cur:current -->
+			<li class="cur">学院新闻</li>
+			<li>通知公告</li>
+			<li>学术动态</li>
+		</ul>
+		<div class="contents">
+			<div class="show"><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a><br><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a><br><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a><br><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a><br><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a><br><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a><br><a href="www.baidu.com">河北软件职业技术学院体育馆地面铺设与墙体防护工程更正公</a>
+			</div>
+			<div><h3>我院召开“不忘初心、牢记使命”主题教育动员大会</h3><br>9月11日下午，我院在笃学楼学术报告厅召开“不忘初心、牢记使命”主题教育动员大会。省委第十二巡回指导组组长王莹出席会议并讲话。学院党委书记、院长田明欣作动员讲话，</div>
+			<div>我院成功举办河北省高职组“人工智能技术与应用”、中高职组“Web前端开发”技能大赛赛项说明暨师资培训会</div>
+		</div>
+	</div>
+	<script>
+		//script放在最后为了提高页面显示效率
+		//选项卡：点击每个选项，被点击的选项具有特殊样式，其他选项样式恢复正常，被点击的选项对应选项内容显示，其他选项内容不显示。编写思路：全部清除，单独设置。
+		function tab(id){
+		var box=document.getElementById(id);// 获取选项卡容器
+		//获取所有选项
+		var ul=box.getElementsByClassName('tabs')[0];//第一项
+		var lis=ul.getElementsByTagName('li');
+		//获取选项内容
+		var div=box.getElementsByClassName('contents')[0];
+		var divs=div.getElementsByTagName('div');
+		for(var i=0;i<lis.length;i++){
+		  lis[i].index=i;//所有选项设置index属性，保存选项的索引序号
+		  //给每个选项绑定点击事件，
+			lis[i].onclick=function(){
+			//所有选项样式恢复正常，
+				for(var i=0;i<lis.length;i++){
+					 // lis[i].className='';class值设置为空，没有去掉class属性
+					lis[i].removeAttribute('class'); //去掉class属性
+				}
+				//所有选项内容不显示
+				for(var i=0;i<divs.length;i++){
+					// divs[i].className='';
+					divs[i].removeAttribute('class');
+				}
+				this.className='cur'; //被点击的选项具有特殊样式
+				 divs[this.index].className='show';//被点击的选项对应的选项内容显示
+			}
+		}
+		}
+		tab('tabs1');
+		tab('tabs2');
+		tab('tabs3');
+	</script>
+</body>
+</html>
